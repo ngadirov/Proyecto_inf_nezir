@@ -18,6 +18,7 @@ public class EnemyController : MonoBehaviour
         timer = changeTime;
     }
 
+
     void Update()
     {
         timer -= Time.deltaTime;
@@ -32,11 +33,11 @@ public class EnemyController : MonoBehaviour
 
         if (vertical)
         {
-            position.y = position.y + Time.deltaTime * speed * 100 * direction;
+            position.y = position.y + Time.deltaTime * speed * 5 * direction;
         }
         else
         {
-            position.x = position.x + Time.deltaTime * speed * 100 * direction;
+            position.x = position.x + Time.deltaTime * speed * 5 * direction;
         }
 
         rigidbody2D.MovePosition(position);
