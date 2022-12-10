@@ -26,10 +26,11 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
 
-        if(!broken)
+        if (!broken)
         {
             return;
         }
+
         timer -= Time.deltaTime;
 
         if (timer < 0)
