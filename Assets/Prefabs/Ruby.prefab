@@ -101,7 +101,7 @@ MonoBehaviour:
   speed: 3
   maxHealth: 5
   timeInvincible: 2
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 8965217376403970111, guid: a44f65fe28c43ce4a9bf691f1aa1cbbc, type: 3}
 --- !u!50 &6213761461639148012
 Rigidbody2D:
   serializedVersion: 4
