@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4260890438414068418}
   - component: {fileID: 5724192946983671010}
   - component: {fileID: 621349400650040151}
+  - component: {fileID: 699160996}
   m_Layer: 0
   m_Name: CollectibleHealth
   m_TagString: Untagged
@@ -109,3 +110,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.30206, y: 2.154665}
   m_EdgeRadius: 0
+--- !u!114 &699160996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4194165829428522241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bf0fc0a1ff8ba24c8d2f53051773326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectedClip: {fileID: 8300000, guid: af5f8b64e3f58f24c87ff8f789b04f6c, type: 3}
