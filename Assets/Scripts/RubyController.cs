@@ -56,7 +56,7 @@ public class RubyController : MonoBehaviour
         animator.SetFloat("Speed", move.magnitude);
 
         Vector2 position = rigidbody2d.position;
-        position = position + move * speed * 10 * Time.deltaTime;
+        position = position + move * speed * Time.deltaTime;
 
         rigidbody2d.MovePosition(position);
 
