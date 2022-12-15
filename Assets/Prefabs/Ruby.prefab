@@ -103,6 +103,7 @@ MonoBehaviour:
   maxHealth: 5
   timeInvincible: 2
   projectilePrefab: {fileID: 8965217376403970111, guid: a44f65fe28c43ce4a9bf691f1aa1cbbc, type: 3}
+  throwClip: {fileID: 8300000, guid: b2edfd40873655249ba0e01a5cf705be, type: 3}
 --- !u!50 &6213761461639148012
 Rigidbody2D:
   serializedVersion: 4

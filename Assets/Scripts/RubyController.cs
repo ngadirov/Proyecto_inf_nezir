@@ -14,6 +14,7 @@ public class RubyController : MonoBehaviour
     bool isInvincible;
     float invincibleTimer;
     public GameObject projectilePrefab;
+    public AudioClip throwClip;
 
     Rigidbody2D rigidbody2d;
 
@@ -97,8 +98,8 @@ public class RubyController : MonoBehaviour
 
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(lookDirection, 300);
-
         animator.SetTrigger("Launch");
+        PlaySound(throwClip);
     }
 
 
